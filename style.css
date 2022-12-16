@@ -1,0 +1,19 @@
+hmtl, body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.photo {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    background-image: url(shaving.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
