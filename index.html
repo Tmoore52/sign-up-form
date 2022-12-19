@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="photo">
-          <div class="credit"></div>
-            </div>
+      <div class="photo">
+        <div class="credit"></div>
+      </div>
+      <div class="form-wrapper">
+        <div class="form-header">
+          <h2>This is not a real online service!</h2>
+          <h1>
+            Get a better shave and smell wonderful while you do it! Sign up now!
+          </h1>
         </div>
-            <form action="post">
-                <label for=""></label>
-            </form>
+        <div class="form"></div>
+        <h3>Sign up here!</h3>
+        <form action="post">
+          <label for="first-name">First Name</label>
+          <input id="first-name" type="text" name="first-name" />
+          
+          <label for="last-name">Last Name</label>
+          <input id="last-name" type="text" name="last-name" /> 
+          
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" /> 
+          
+          <label for="phone-number">Phone Number</label>
+          <input id="phone-number" type="tel" name="phone-number"/>
+          
+          <label for="password">Password</label>
+          <input id="password" type="text" name="password"/> 
+          
+          <label for="confirm-password">Confirm Password</label>
+          <input id="confirm-password" type="text" name="confirm-password"/>
+        </form>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

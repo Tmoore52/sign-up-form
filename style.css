@@ -1,10 +1,9 @@
-hmtl, body {
+hmtl, body, h1, h2 {
     margin: 0;
     padding: 0;
 }
 .wrapper {
     display: flex;
-    flex-direction: row;
     width: 100vw;
     height: 100vh;
 }
@@ -12,8 +11,32 @@ hmtl, body {
     background-color: white;
     width: 30%;
     height: 100%;
-    background-image: url(shaving.jpg);
+    background-color: black;
+    /* background-image: url(shaving.jpg); */
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.form-header {
+    text-align: center;
+    justify-content: center;
+}
+
+.form-header h2 {
+    padding-bottom: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+
