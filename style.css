@@ -19,12 +19,23 @@ h3 {
   width: 30%;
   height: 100%;
   background-color: black;
-  /* background-image: url(shaving.jpg); */
+  background-image: url(shaving.jpg);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+#banner {
+  width: 100%;
+  background-image: url(sterling.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 175px;
+  color: white;
+  margin-top: 55px;
+  background-size: contain;
+  background-color: rgba(148, 146, 146, 0.6);
+}
 .form-wrapper {
   display: flex;
   flex-direction: column;
@@ -57,7 +68,7 @@ form {
 
 
 .input {
-  width: 50%;
+  width: 25%;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -68,12 +79,33 @@ form {
   width: 50%;
 }
 
+
 .input input {
   width: 400px;
   border-radius: 5px;
   box-shadow: none !important;
-  height: 20px;
+  font-size: 1.3em;
 } 
+
+.input label {
+  padding-bottom: 10px;
+}
+
+#push {
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 45px;
+  appearance: none;
+  background-color: lightgray;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+
+}
+
+#push:hover {
+  background-color: whitesmoke;
+}
 
 footer {
   height: 50px;
